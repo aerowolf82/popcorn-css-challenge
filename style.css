@@ -3,3 +3,136 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+body {
+  margin: auto;
+  background-color:#D4A76A;
+}
+
+.Container{
+  height:100%;
+}
+
+header {
+  height: 150px;
+  width:100%;
+  background-color:#FFDBAA;
+  background-size: cover;
+  font-family: sans-serif;
+  margin: auto; 
+  border-bottom: 2px solid #000000;
+  display: flex;
+  justify-content:space-around;
+}
+
+main {
+  background-color:#D4A76A;
+  background-size: cover;
+  margin: auto; 
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+footer {
+  background-color:#D4A76A;
+  background-size: cover;
+  height:unset;
+  margin: 0; 
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Title {
+  display: flex;
+  padding: 40px;
+  }
+
+.Title button{
+  display: inline block;
+  height: 75px;
+  background: #805215;
+  float: right;
+  color: white;
+  border-style: none;
+  width: 100px;
+  font-weight:800;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-right: 25px;
+}
+
+.Title h1{
+  float: left;
+  min-width: 425px;
+  padding-right: 450px;
+  font-weight:800;
+}
+
+h1{
+  display: inline-block;
+  color: #553100;
+}
+
+.infoBox {    
+    background: white;
+    width: 90%;
+    margin: 8px;
+    height: 175px;
+    vertical-align: center;
+    text-align: center;
+    border-style: outset;
+    font-family: sans-serif;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.75);
+    }
+  .learnBox {
+    background: white;
+    width: 90%;
+    margin: 1%;
+    height: 200px;
+    vertical-align: center;
+    text-align: center;
+    border-style: outset;
+    font-family: sans-serif;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.75);
+    }    
+
+
+.infoBox button{
+    display: inline-block;
+    height: 50px;
+    background: #805215;
+    color: white;
+    width: 300px;
+    font-weight:800;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+    border-style: outset;
+    }
+.infoBox h3{
+    text-align: center;
+    font-weight:800;
+    }
+.infoBox p{
+    text-align: left;
+  }
+
+.learnBox button{
+    display: inline-block;
+    height: 50px;
+    background: #805215;
+    color: white;
+    width: 300px;
+    font-weight:800;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+    border-style: outset;
+    }
